@@ -1,0 +1,72 @@
+.padding-top {
+	padding-top: 40px;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+
+.underline {
+	border-bottom: 2px solid;
+}
+.aboveline {
+	position: relative;
+
+}
+.h2-frame {
+	position: absolute;
+	top: -45px;
+	left: 10%;
+	right: 10%;
+}
+.frame {
+	border: 2px solid;
+	border-top: 0;
+}
+.box-background {
+	@extend .box;
+	background-image: url('file:///D:/kodowanie/portfolio/final-1/pics/layer 4.png');
+	@extend .backgrounds, .center;
+		.underline, h2, .frame {
+			@extend .white;
+			}
+		h2 {
+		@extend .h2-frame
+		}
+}
+.box-white {
+	@extend .box;
+		.underline, h2, .frame {
+		@extend .gray;
+	}
+	h2 {
+		@extend .h2-frame
+		}
+}
+.design {
+	h2 {
+	@extend .gray;
+	}
+}
+.whatwedo {
+	font-size: 14px;
+	font-weight: 280;
+	line-height: 25px;
+}
+.icons {
+	padding-top: 80px;
+}
+.pluspadd {
+	@extend .padding-bottom;
+}
+
+button {
+	padding: 10px 120px;
+	border: none;
+	color: white;
+	background-color: #3A3A3A;
+	@extend .text-standard;
+}
+.contact {
+	margin-bottom: 30px;
+}
+
