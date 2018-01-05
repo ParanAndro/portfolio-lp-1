@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$fonts: Lato, sans-serif;
+body {
+font: 100% $fonts;
+}
+* {
+box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	max-width: 850px;
+}
+.box {
+	padding: 80px 0;
+	width: 100vw;
+	margin: 0;
+}
+h2 {
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.center {
+	text-align: center;
+}
+.backgrounds {
+	background-size: cover;
+	background-position: center;
+}
+.white {
+	color: #ffffff;
+}
+.gray {
+	color: #3c3c3c;
+}
+.text-standard {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 26px;
+}
