@@ -1,0 +1,23 @@
+.hero {
+	background-image: url('file:///D:/kodowanie/portfolio/final-1/pics/hero.png');
+	@extend .backgrounds, .center, .box;
+	height: 100vh;
+	
+		h1 {
+		@extend .white;
+		font-size: 54px;
+		font-weight: 700;
+		margin-top: 50px;
+		letter-spacing: 4px;
+	}
+		.jumbo {
+		@extend .white, .text-standard;
+		margin-bottom: 130px;
+	}
+		.ellipse {
+		margin-top: 120px;
+	}
+		.shape {
+		margin-bottom: 50px;
+	}
+}
