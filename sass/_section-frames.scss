@@ -22,6 +22,21 @@
 	border: 2px solid;
 	border-top: 0;
 }
+[class*="text-frame-"] {
+	@extend .text-standard;
+}
+.text-frame-1, {
+	@extend .padding-top;
+	@extend .padding-bottom;
+}
+.text-frame-2, {
+	@extend .padding-top;
+	padding-bottom: 0;
+}
+.text-frame-3 {
+	padding-top: 0;
+	@extend .padding-bottom;
+}
 .box-background {
 	@extend .box;
 	background-image: url('file:///D:/kodowanie/portfolio/final-1/pics/layer 4.png');

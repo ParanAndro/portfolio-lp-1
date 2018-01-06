@@ -3,6 +3,7 @@ $fonts: Lato, sans-serif;
 body {
 font: 100% $fonts;
 }
+
 * {
 box-sizing: border-box;
 }
@@ -15,7 +16,7 @@ body {
 }
 .box {
 	padding: 80px 0;
-	width: 100vw;
+	
 	margin: 0;
 }
 h2 {

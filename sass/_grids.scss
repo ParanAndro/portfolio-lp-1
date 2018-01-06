@@ -81,22 +81,6 @@ $colWidth: 8.33%;
     display: flex;
     text-align: center;
 }
-
-[class*="text-frame-"] {
-	@extend .text-standard;
-}
-.text-frame-1, {
-	@extend .padding-top;
-	@extend .padding-bottom;
-}
-.text-frame-2, {
-	@extend .padding-top;
-	padding-bottom: 0;
-}
-.text-frame-3 {
-	padding-top: 0;
-	@extend .padding-bottom;
-}
 .col-center-7 {
 	margin-left: 20%;
 }
