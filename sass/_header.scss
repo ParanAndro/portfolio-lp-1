@@ -1,5 +1,5 @@
 .hero {
-	background-image: url('images/hero.png');
+	background-image: url('hero.png');
 	@extend .backgrounds, .center, .box;
 	height: 100vh;
 	

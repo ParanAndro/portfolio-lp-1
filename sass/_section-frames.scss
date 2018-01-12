@@ -39,7 +39,7 @@
 }
 .box-background {
 	@extend .box;
-	background-image: url('images/layer 4.png');
+	background-image: url('../images/layer 4.png');
 	@extend .backgrounds, .center;
 		.underline, h2, .frame {
 			@extend .white;
